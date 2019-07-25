@@ -7,6 +7,8 @@ from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
 
 
+
+
 app = Flask(__name__)
 
 model = tf.keras.models.load_model("fashionMnist.h5") ## on appel le modell
